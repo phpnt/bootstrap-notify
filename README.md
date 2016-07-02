@@ -53,11 +53,11 @@ composer require phpnt/bootstrap-notify
                     'message',
                     [
                         'type'      => 'info',                          // класс сообщения (success, info, warning, danger)
-                        'icon'      => '/путь/к/картинке', // картинка перед сообщением, тип смотрим ниже
-                        'icon_type' => 'image',                         // тип иконки в данном случае это класс bootstrap иконки,
+                        'icon'      => 'glyphicon glyphicon-ok',        // картинка перед сообщением, тип смотрим ниже
+                        'icon_type' => 'class',                         // тип иконки в данном случае это класс bootstrap иконки,
                                                                         // для картинки image, а в icon указываем путь до картинки
                         'title'     => '<strong style="margin-left: 10px;">Спасибо</strong>',      // заголовок
-                        'message'   => 'Сообщение',   // текст сообщения
+                        'message'   => 'Сообщение',                     // текст сообщения
 
                         'element'           => 'body',                  // к какому элементу применяется уведомление
                         'position'          => 'absolute',              // позиция контейнера элемента (static | fixed | relative | absolute)
@@ -83,7 +83,7 @@ composer require phpnt/bootstrap-notify
                         // шаблон сообщения, здесь {0} = type, {1} = title, {2} = message, {3} = url, {4} = target
                     ]
                 );
-        return $this->render('view');
+        return $this->render('bootstrap-notify');
     }
 ```
 
