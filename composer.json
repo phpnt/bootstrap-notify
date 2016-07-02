@@ -1,0 +1,30 @@
+{
+    "name": "phpnt/bootstrap-notify",
+    "description": "Yii2 Bootstrap Notify",
+    "keywords": ["yii2", "bootstrap-notify", "bootstrap-growl", "notify", "growl", "widget"],
+    "type": "yii2-extension",
+    "license": "MIT",
+    "minimum-stability" : "dev",
+    "prefer-stable": true,
+    "support": {
+        "source": "https://github.com/phpnt/bootstrap-notify"
+    },
+    "authors": [
+        {
+            "name": "phpNT",
+            "email": "phpnt@phpnt.com",
+            "homepage": "http://phpnt.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "yiisoft/yii2": "*",
+        "bower-asset/bootstrap.growl": "*",
+        "phpnt/animate-css": "^0.0.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "phpnt\\bootstrapNotify\\": ""
+        }
+    }
+}
