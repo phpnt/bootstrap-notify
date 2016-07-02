@@ -3,7 +3,7 @@ phpNT - Bootstrap Notify
 
 ### Описание:
 ### Выводит анимированные уведомления.
-### [DEMO](http://phpnt.dev/widget/bootstrap-notify?id=1)
+### [DEMO](http://phpnt.com/widget/bootstrap-notify?id=1)
 
 ------------
 ### - [Поддержать phpNT](http://phpnt.com/donate/index)
