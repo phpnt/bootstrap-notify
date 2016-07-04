@@ -21,7 +21,7 @@ class BootstrapNotify extends Widget
     private $target;
 
     private $element            = 'body';
-    private $position           = 'absolute';
+    private $position           = 'fixed';
     private $type               = 'info';
     private $allow_dismiss      = 1;
     private $newest_on_top      = 0;
