@@ -69,9 +69,9 @@ class BootstrapNotify extends Widget
                 $.notify({
                     icon:           '".$this->icon."',
                     title:          '".$this->title."',
-	                message:        '".$this->message."',
-	                url:            '".$this->url."',
-	                target:         '".$this->target."',
+	            message:        ' ".$this->message."',
+	            url:            '".$this->url."',
+	            target:         '".$this->target."',
                 },{
                     element:        '".$this->element."',
                     position:       '".$this->position."',
