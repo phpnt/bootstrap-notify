@@ -21,7 +21,7 @@ class BootstrapNotifyAsset extends AssetBundle
      * @inherit
      */
     public $js = [
-        'dist/bootstrap-notify.min.js',
+        'bootstrap-notify.min.js',
     ];
 
     public $depends = [
