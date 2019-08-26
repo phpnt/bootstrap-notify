@@ -19,8 +19,7 @@
     "require": {
         "php": ">=5.4.0",
         "yiisoft/yii2": "*",
-        "bower-asset/bootstrap.growl": "*",
-        "phpnt/animate-css": "^0.0.1"
+        "bower-asset/bootstrap.growl": "*"
     },
     "autoload": {
         "psr-4": {
