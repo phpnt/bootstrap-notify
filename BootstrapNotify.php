@@ -6,8 +6,11 @@
  * Time: 13:47
  */
 namespace phpnt\bootstrapNotify;
+
+use Yii;
 use yii\bootstrap\Widget;
 use phpnt\animateCss\AnimateCssAsset;
+
 class BootstrapNotify extends Widget
 {
     public $icon;
@@ -51,7 +54,7 @@ class BootstrapNotify extends Widget
         BootstrapNotifyAsset::register($view);
         if(isset($message)) {
             $this->setOptions($message);
-            \Yii::$app->view->registerJs("
+            Yii::$app->view->registerJs("
                 $.notify({
                     icon:           '".$this->icon."',
                     title:          '".$this->title."',
