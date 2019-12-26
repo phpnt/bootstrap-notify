@@ -8,7 +8,7 @@
 namespace phpnt\bootstrapNotify;
 
 use Yii;
-use yii\bootstrap\Widget;
+use yii\base\Widget;
 use phpnt\animateCss\AnimateCssAsset;
 
 class BootstrapNotify extends Widget
